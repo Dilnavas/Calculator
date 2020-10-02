@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+   <div class="container">
+     <h1>CALCULATOR</h1>
+     <div class="calculator">
+       <div >
+        <input class="display" type="text" name="result" value="">
+       </div>
+       <button onclick="btnClear()"class="first-row clear" type="button" name="button">C</button>
+       <button onclick="plusorminus()"class="first-row plus-minus" type="button" name="button">+/-</button>
+       <button onclick="btnClick('%'),percentage()" class="first-row percentage" type="button" name="button">%</button>
+       <button onclick="btnClick('/')" class="operators divide" type="button" name="button">/</button>
+       <br>
+       <button onclick="btnClick(7)" class="numbers" type="button" name="button">7</button>
+       <button onclick="btnClick(8)" class="numbers" type="button" name="button">8</button>
+       <button onclick="btnClick(9)" class="numbers" type="button" name="button">9</button>
+       <button onclick="btnClick('*')" class="operators multiply" type="button" name="button">x</button>
+       <br>
+       <button onclick="btnClick(4)" class="numbers" type="button" name="button">4</button>
+       <button onclick="btnClick(5)" class="numbers" type="button" name="button">5</button>
+       <button onclick="btnClick(6)" class="numbers" type="button" name="button">6</button>
+       <button onclick="btnClick('-')" class="operators substract" type="button" name="button">-</button>
+       <br>
+       <button onclick="btnClick(1)" class="numbers" type="button" name="button">1</button>
+       <button onclick="btnClick(2)" class="numbers" type="button" name="button">2</button>
+       <button onclick="btnClick(3)" class="numbers" type="button" name="button">3</button>
+       <button onclick="btnClick('+')" class="operators add" type="button" name="button">+</button>
+       <br>
+       <button onclick="btnClick(0)" class="zero numbers" type="button" name="button">0</button>
+       <button onclick="btnClick('.')" class="dot numbers" type="button" name="button">.</button>
+       <button onclick="result()" class="equal operators " type="button" name="button">=</button>
+     </div>
+     <h3>&copydilnavascp2020</h3>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="Javascript/index.js" charset="utf-8"></script>
+  </body>
+</html>
